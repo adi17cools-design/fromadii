@@ -1,0 +1,228 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Riddhima ❤️</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .card {
+        background: white;
+        width: 100%;
+        max-width: 600px;
+        padding: 40px 30px;
+        border-radius: 25px;
+        text-align: center;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        position: relative;
+        z-index: 2;
+    }
+
+    .heart {
+        font-size: 55px;
+        animation: heartbeat 1.2s infinite;
+    }
+
+    @keyframes heartbeat {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.15);
+        }
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 10px 0;
+        color: #e75480;
+    }
+
+    .subtitle {
+        color: #777;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .message {
+        background: #fff1f4;
+        border-radius: 18px;
+        padding: 22px;
+        color: #444;
+        font-size: 17px;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+
+    .highlight {
+        color: #e75480;
+        font-weight: bold;
+    }
+
+    .list {
+        text-align: left;
+        background: #fafafa;
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+    }
+
+    .list p {
+        margin: 10px 0;
+    }
+
+    button {
+        border: none;
+        background: #e75480;
+        color: white;
+        padding: 15px 28px;
+        border-radius: 30px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #d63d69;
+        transform: scale(1.05);
+    }
+
+    #secret {
+        display: none;
+        margin-top: 25px;
+        padding: 20px;
+        border-radius: 15px;
+        background: #fff0f5;
+        color: #444;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .floating {
+        position: absolute;
+        font-size: 25px;
+        animation: float 6s linear infinite;
+        opacity: 0.7;
+    }
+
+    @keyframes float {
+        from {
+            transform: translateY(100vh);
+        }
+
+        to {
+            transform: translateY(-100px);
+        }
+    }
+
+    .one { left: 10%; animation-delay: 0s; }
+    .two { left: 25%; animation-delay: 2s; }
+    .three { left: 75%; animation-delay: 1s; }
+    .four { left: 90%; animation-delay: 3s; }
+
+    @media (max-width: 500px) {
+        h1 {
+            font-size: 36px;
+        }
+
+        .card {
+            padding: 30px 20px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="floating one">♡</div>
+<div class="floating two">✨</div>
+<div class="floating three">♡</div>
+<div class="floating four">✨</div>
+
+<div class="card">
+
+    <div class="heart">❤️</div>
+
+    <h1>Riddhima</h1>
+
+    <div class="subtitle">
+        A tiny good-luck page made specially for you ✨
+    </div>
+
+    <div class="message">
+
+        Hey Riddhima! 👋
+
+        <br><br>
+
+        I know you're a little scared about tomorrow's paper,
+        but don't stress yourself too much.
+
+        <br><br>
+
+        You've prepared for this.
+        Just stay calm, read every question properly,
+        and take it <span class="highlight">one question at a time.</span>
+
+        <br><br>
+
+        You don't have to be perfect.
+        Just give it your best. ❤️
+
+        <br><br>
+
+        And remember...
+
+        <br>
+
+        <span class="highlight">
+        The paper should be scared of you, not the other way around. 😭
+        </span>
+
+    </div>
+
+    <div class="list">
+
+        <strong>🌙 Before the exam:</strong>
+
+        <p>✓ Take a deep breath</p>
+        <p>✓ Don't panic if you see a difficult question</p>
+        <p>✓ Start with the questions you know</p>
+        <p>✓ Keep an eye on the time</p>
+        <p>✓ Trust yourself</p>
+
+    </div>
+
+    <button onclick="showMessage()">
+        💌 One last message
+    </button>
+
+    <div id="secret">
+
+        Riddhima, whatever happens tomorrow,
+        don't let one paper decide how you feel about yourself.
+
+        <br><br>
+
+        Walk in confidently.
+
+        <br><br>
+```
